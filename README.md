@@ -2,15 +2,16 @@
 
 A simple GUI application to copy Process History metadata between Submision Information Packages (SIP) in the British Library's [AV SIP Generator](https://british-library-technical-services.github.io/Documentation/docs/AVSIPGEN/)
 
-The application utlises the AV SIP Generator API to capture Process History metadata in JSON format from a Reference SIP and copies it to a Destination SIP.  The Reference and Destination SIPs are defined by their [SIP Id]()<!---insert link--->
+The application utlises the AV SIP Generator API to capture Process History metadata in JSON format from a Reference SIP and copies it to a Destination SIP.  The Reference and Destination SIPs are defined by their [SIP Id]()
+<!---insert link--->
 
 ## Use
 
-[!PMP GUI](GUI_IMG.png)
+[!PMP GUI](GUI_IMG.PNG)
 
-1. Enter the Id for the Reference SIP you would like to capture the Process History from
-2. Enter the Id for the Destination SIP you would like to copy the Process History to
-3. Press the << PATCH >> button
+1. Enter the Id for the **Reference SIP** you would like to capture the Process History from
+2. Enter the Id for the **Destination SIP** you would like to copy the Process History to
+3. Press the **<< PATCH >>** button
 
 The SIP Id will be checked to confirm it is a valid.  The Process History will then be captured and copied to the Destination SIP.  A SUCCESS status will be returned in the bottom status bar once complete.  
 

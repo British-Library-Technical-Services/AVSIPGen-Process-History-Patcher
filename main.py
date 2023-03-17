@@ -26,10 +26,10 @@ class MainFrame(wx.Frame):
         self.status = 200
         self.URL = config.URL
 
-        src_text = wx.StaticText(panel, label='Reference Id')
+        src_text = wx.StaticText(panel, label='Reference SIP')
         self.src_id = wx.TextCtrl(panel, style=wx.TE_CENTRE)
 
-        dest_text = wx.StaticText(panel, label='Destination Id')
+        dest_text = wx.StaticText(panel, label='Destination SIP')
         self.dest_id = wx.TextCtrl(panel, style=wx.TE_CENTRE)
 
         button = wx.Button(panel, label='<< PATCH >>', size=(150, 60))
