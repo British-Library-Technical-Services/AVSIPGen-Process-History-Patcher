@@ -7,11 +7,11 @@ The application utlises the AV SIP Generator API to capture Process History meta
 
 ## Use
 
-![GUI_IMG](https://user-images.githubusercontent.com/66015813/225941699-0a76bfe6-7c3e-430e-8c93-82b0c5f22aad.PNG)
-
 1. Enter the Id for the **Reference SIP** you would like to capture the Process History from
 2. Enter the Id for the **Destination SIP** you would like to copy the Process History to
 3. Press the **<< PATCH >>** button
+
+![GUI_IMG](https://user-images.githubusercontent.com/66015813/225941699-0a76bfe6-7c3e-430e-8c93-82b0c5f22aad.PNG)
 
 The SIP Id will be checked to confirm it is a valid.  The Process History will then be captured and copied to the Destination SIP.  A SUCCESS status will be returned in the bottom status bar once complete.  
 
