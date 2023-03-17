@@ -19,17 +19,17 @@ class MainFrame(wx.Frame):
 
     def __init__(self):
         super().__init__(parent=None, style=wx.DEFAULT_FRAME_STYLE ^ wx.RESIZE_BORDER | wx.STAY_ON_TOP,
-                         title="PM Patcher", size=(200, 240))
+                         title="PMP", size=(200, 240))
 
         panel = wx.Panel(self)
 
         self.status = 200
         self.URL = config.URL
 
-        src_text = wx.StaticText(panel, label='SOURCE ID')
+        src_text = wx.StaticText(panel, label='Reference Id')
         self.src_id = wx.TextCtrl(panel, style=wx.TE_CENTRE)
 
-        dest_text = wx.StaticText(panel, label='DESTINATION ID')
+        dest_text = wx.StaticText(panel, label='Destination Id')
         self.dest_id = wx.TextCtrl(panel, style=wx.TE_CENTRE)
 
         button = wx.Button(panel, label='<< PATCH >>', size=(150, 60))
