@@ -6,7 +6,7 @@ The application utlises the AV SIP Generator API to capture Process History meta
 
 ## Use
 
-<img src="{{ site.baseurl }}/GUI_IMG.png">
+[!PMP GUI](GUI_IMG.png)
 
 1. Enter the Id for the Reference SIP you would like to capture the Process History from
 2. Enter the Id for the Destination SIP you would like to copy the Process History to
